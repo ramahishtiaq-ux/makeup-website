@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Miss Swiss</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo">Miss<span>Swiss</span></a>
+    <nav class="nav__links">
+      <a href="story.html">Story</a>
+      <a href="collection.html">Collection</a>
+      <a href="case.html">The Case</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <a href="collection.html" class="nav__cta">Shop Sets</a>
+    <button class="nav__burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <p class="eyebrow">Get in touch</p>
+  <h1>We'd love to hear from you.</h1>
+  <p>Questions about a set, a wholesale order, or a press request — this goes straight to our team.</p>
+</section>
+
+<section class="contact-grid">
+  <div>
+    <h2>Send a message</h2>
+    <p>We reply within one business day.</p>
+    <form class="contact-form" onsubmit="return false;">
+      <input type="text" placeholder="Full name" required>
+      <input type="email" placeholder="you@email.com" required>
+      <textarea rows="5" placeholder="How can we help?" required></textarea>
+      <button type="submit" class="btn btn--dark">Send message</button>
+    </form>
+  </div>
+  <div class="contact-info">
+    <h3>Reach us directly</h3>
+    <ul>
+      <li><strong>Email</strong>hello@missswiss.com</li>
+      <li><strong>Phone</strong>+1 (555) 019‑2846</li>
+      <li><strong>Studio</strong>128 Lake Street, Zurich</li>
+      <li><strong>Hours</strong>Mon–Fri, 9am–6pm CET</li>
+    </ul>
+  </div>
+</section>
+
+<section class="cta-band">
+  <h2>Be first to the next drop.</h2>
+  <p>New shades restock quarterly. No spam, just the good stuff.</p>
+  <form class="cta-band__form" onsubmit="return false;">
+    <input type="email" placeholder="you@email.com" required>
+    <button type="submit" class="btn btn--dark">Notify me</button>
+  </form>
+</section>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <a href="index.html" class="nav__logo footer__logo">Miss<span>Swiss</span></a>
+    <div class="footer__cols">
+      <div>
+        <h4>Shop</h4>
+        <a href="collection.html">Full sets</a>
+        <a href="collection.html">Travel kits</a>
+        <a href="gallery.html">Single brushes</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="story.html">Our story</a>
+        <a href="case.html">The case</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">Pinterest</a>
+      </div>
+    </div>
+  </div>
+  <p class="footer__bottom">© 2026 Miss Swiss. All brushes, no bristle waste.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
